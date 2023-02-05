@@ -1,2 +1,4 @@
-# graphletjs
-A JavaScript library for managing an extensible property graph database
+# GraphletJS
+GraphletJS is a JavaScript library for managing an extensible property graph database.
+
+
