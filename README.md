@@ -1,10 +1,14 @@
 # GraphletJS
 
-GraphletJS is a JavaScript library for managing an extensible property graph database in the form of a simple unordered list of objects.
+GraphletJS is a JavaScript library for managing an extensible property graph database in the form of a simple unordered list of objects.  
 
 `db = [{...}, {...}, {...}]`
 
 The objects are called nodes.
+
+The project is still in early development and so should not be used yet. 
+
+GraphletJS was created to support the digital archive and associated digital exhibits at the <a href="https://www.wallowahistory.org/">Wallowa History Center</a>, a 501(c)(3) non-profit interpretive center in Wallowa, Oregon.
 
 ## Operations
 
