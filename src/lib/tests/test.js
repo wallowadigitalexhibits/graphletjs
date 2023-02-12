@@ -1,5 +1,5 @@
-import MyLibrary from '../index';
+import GraphletJS from '../index';
 
 test('Runs without crashing', () => {
-  new MyLibrary();
+  new GraphletJS();
 });
