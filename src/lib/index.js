@@ -44,9 +44,8 @@ class GraphletJS {
     return keyType === valType
   }
 
-  getDateUpdatedObj = (name) => {
-    return { "user": name,
-             "timestamp": Date.now() }
+  getDateUpdatedObj = (user) => {
+    return Math.floor(Date.now()/1000)+user
   }
 
   /**************************************/
@@ -68,10 +67,7 @@ class GraphletJS {
     return {
       "core_props": {
         "id": this.getRandomToken(list, 16),
-        "date_updated": [{
-          "user": user,
-          "timestamp": Math.floor(Date.now()/1000)
-        }],
+        "date_updated": [Math.floor(Date.now()/1000)+user],
         "label": "Label"
       },
       "label_props": {
